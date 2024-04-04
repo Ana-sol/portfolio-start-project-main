@@ -3,6 +3,7 @@ import {Header} from "./assets/layout/header/Header";
 import {Skills} from "./assets/layout/sections/skills/Skills";
 import {Main} from "./assets/layout/sections/main/Main";
 import {Works} from "./assets/layout/sections/works/Works";
+import {Testimony} from "./assets/layout/sections/testimony/Testimony";
 
 
 
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
+            <Testimony/>
         </div>
     );
 }
