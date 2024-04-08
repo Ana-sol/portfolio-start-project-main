@@ -18,11 +18,13 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: ${theme.colors.font};
+        line-height: 1.2;
     }
     
 
 a {
     text-decoration: none;
+    color: ${theme.colors.font};
 }
 
 ul {
@@ -34,11 +36,29 @@ button {
     border: none;
 }
 
+
+section {
+    padding: 100 px0;
+}
+
 section:nth-of-type(odd) {
     background-color: ${theme.colors.primaryBg};
 }
 
    section:nth-of-type(even) {
        background-color: ${theme.colors.secondaryBg};
+   }
+   
+   h3 {
+       font-family: 'JosefinSans', sans-serif;
+       font-weight: 700;
+       font-size: 16px;
+
+       letter-spacing: 1px;
+   }
+   
+   p {
+       font-weight: 400;
+       font-size: 14px;
    }
 `
