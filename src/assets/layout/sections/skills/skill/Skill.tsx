@@ -31,7 +31,7 @@ const StyledSkill = styled.div `
     padding: 62px 20px 20px 40px;
 `
 
-const IconWrapper= styled.div`
+export const IconWrapper= styled.div`
 position: relative;
     
     &::before {
@@ -57,6 +57,6 @@ const SkillTitle = styled.h3 `
 `
 const SkillText = styled.p `
     text-align: center;
-    line-height: 1.4;
+    
 `
 

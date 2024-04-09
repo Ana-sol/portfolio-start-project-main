@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 a {
     text-decoration: none;
     color: ${theme.colors.font};
+    cursor: pointer;
 }
 
 ul {
@@ -34,6 +35,9 @@ ul {
 button {
     background-color: unset;
     border: none;
+    cursor: pointer;
+    color: ${theme.colors.font};
+    
 }
 
 
@@ -60,5 +64,6 @@ section:nth-of-type(odd) {
    p {
        font-weight: 400;
        font-size: 14px;
+       line-height: 1.4;
    }
 `
